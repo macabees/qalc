@@ -16,4 +16,7 @@ A powerful multi-purpose calculator (interactive).
 Note: requires `docker login`
 
 ## Run image
-`$ docker run -it --rm macabees/qalc`
+`$ docker run -it --rm --name qalc macabees/qalc`
+
+## Help
+`$ docker run -it --rm macabees/qalc --help`

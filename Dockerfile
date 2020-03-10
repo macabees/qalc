@@ -1,5 +1,7 @@
 FROM debian
 
+WORKDIR /root/.config/qalculate/
+
 RUN apt-get -y update \ 
     && apt-get -y install \
         qalc \
